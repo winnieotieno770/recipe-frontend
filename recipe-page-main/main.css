@@ -44,19 +44,23 @@ h3{
     padding-left: 100px;
     margin-bottom: 5px;
 }
+.pink{
+    background-color: #FADADD;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
 .preparation{
     padding-left:53px;
     line-height: 2.3rem;
     list-style-type:square;
     color: rgb(48, 57, 32);
+  
+
 }
 .preparation li::before{
     content: '■';
     color: maroon;
-    font-weight: bold;
-    
-
-    
+    font-weight: bold;    
 }
 h2{
     margin: 20px 0;
